@@ -1,1 +1,4 @@
-docker build -t my_noetic . 
+docker build -f docker/Dockerfile \
+	--build-arg="ROS_DISTRO=humble" \
+	--target base -t my_humble . 
+

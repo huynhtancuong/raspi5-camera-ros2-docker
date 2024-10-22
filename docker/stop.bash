@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker stop "my_ros_container"
+docker stop "my_ros2_container"
