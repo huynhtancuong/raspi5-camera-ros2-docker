@@ -1,4 +1,4 @@
-### Template for running ROS Noetic in Docker
+### Template for running ROS in Docker
 
 You can modify the Dockerfile 
 Then you can use these commands to buid, run, connect to the container, and finally stop it.
