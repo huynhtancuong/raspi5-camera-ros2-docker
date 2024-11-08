@@ -10,4 +10,7 @@ docker run \
     -e XAUTHORITY \
     --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
     --volume="${PWD}/workspace":"/workspace":rw \
-    my_humble
+    -v /dev:/dev \
+    -v /run/udev:/run/udev:ro \
+    my_humble \
+    bash
